@@ -42,8 +42,8 @@ if unsupervised == true
     
     % Unsupervised training
     
-    total_epochs = 20;
-    save_freq = 2;
+    total_epochs = 5;
+    save_freq = 1;
     
     if ~exist(folderSave, 'dir')
        mkdir(folderSave)
